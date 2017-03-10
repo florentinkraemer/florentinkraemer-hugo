@@ -3,11 +3,13 @@ date = "2016-11-05T19:41:01+05:30"
 title = "Animal Welfare and Human Ethics"
 draft = false
 image = "img/portfolio/animalwelfare.png"
-showonlyimage = false
+showonlyimage = true
 weight = 1
 +++
 
 <!--more-->
+
+* joint with Konstanze Albrecht and [Nora Szech](http://polit.econ.kit.edu/deutsch/21_53.php)
 
 ## Abstract
 

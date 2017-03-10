@@ -3,13 +3,14 @@ date = "2016-11-05T19:41:01+05:30"
 title = "Delegating Pricing Power To Customers"
 draft = false
 image = "img/portfolio/pwywnyop.png"
-showonlyimage = false
+showonlyimage = true
 weight = 1
 +++
 
 <!--more-->
 
-joint with [Klaus M. Schmidt](http://www.et.econ.uni-muenchen.de/personen/professor/schmidt/index.html), [Martin Spann](http://www.ecm.bwl.uni-muenchen.de/personen/professoren/spann/index.html) and [Lucas Stich](http://www.ecm.bwl.uni-muenchen.de/personen/mitarbeiter/stich/index.html)
+* joint with [Klaus M. Schmidt](http://www.et.econ.uni-muenchen.de/personen/professor/schmidt/index.html), [Martin Spann](http://www.ecm.bwl.uni-muenchen.de/personen/professoren/spann/index.html) and [Lucas Stich](http://www.ecm.bwl.uni-muenchen.de/personen/mitarbeiter/stich/index.html)
+* forthcoming in [Journal of Economic Behavior and Organization](http://dx.doi.org/10.1016/j.jebo.2017.01.019)
 
 ## Abstract
 
