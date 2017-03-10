@@ -1,36 +1,60 @@
-baseurl = "/"
-relativeurls = true
+baseurl = "http://florentinkraemer.com/"
+title = "Florentin Krämer"
+theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
-title = "Lithium Theme"
-theme = "hugo-lithium-theme"
-googleAnalytics = ""
+# Enable comments by entering your Disqus shortname
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-93283813-1"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "blue"
+  description = "This is the personal website of Florentin Krämer. I am an applied empirical microeconomist with a research focus on behavioral and experimental economics, currently employed at the University of Munich."
+  copyright = "&copy; 2017 Florentin Krämer"
+#  sidebarAbout = [
+#    "I am an applied empirical microeconomist with a research focus on behavioral and #experimental economics.",
+#    "Currently based in Munich."
+#  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  # email = "you@yoursite.com"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.9.0"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = ""
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
 
+  [[params.navlinks]]
+  name = "Contact"
+  url = "contact/"
+  
+  [[params.navlinks]]
+  name = "Colophon"
+  url = "colophon/"
+
+  [params.social]
+  facebook      = "http://www.facebook.com/florentin.kraemer"
+  # googleplus    = "full profile url in googleplus"
+  # email         = ""
+  # twitter       = "full profile url in twitter"
+  # linkedin      = "full profile url in linkedin"
+  # stackoverflow = "full profile url in stackoverflow"
+  # instagram     = "full profile url in instagram"
+  github        = "https://github.com/florentinkraemer/"
+  xing      = "https://www.xing.com/profile/Florentin_Kraemer"
